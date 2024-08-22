@@ -1,0 +1,10 @@
+2024-08-14 19:42:59 - Attempting to attach to cs2 with driver
+2024-08-14 19:42:59 - Get clientdll base140734309728256
+2024-08-14 19:42:59 - Get engine2 base140735041437696
+2024-08-14 19:42:59 - setup window
+2024-08-14 19:42:59 - init window params
+2024-08-14 19:42:59 - run entity cache
+2024-08-14 19:42:59 - run local cache
+2024-08-14 19:42:59 - run misc cache
+2024-08-14 19:42:59 - Get game version0
+2024-08-14 19:42:59 - invaild
