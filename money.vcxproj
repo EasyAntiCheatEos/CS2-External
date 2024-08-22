@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -152,49 +152,36 @@
     <ClInclude Include="cheat\1337\1337.hpp" />
     <ClInclude Include="cheat\1337\entity\entitylist.h" />
     <ClInclude Include="cheat\1337\player\local.h" />
-    <ClInclude Include="cheat\cheat.hpp" />
     <ClInclude Include="cheat\config.h" />
     <ClInclude Include="cheat\Dependencies\Dependencies.h" />
-    <ClInclude Include="cheat\Dependencies\Direct3d\d3dx9.h" />
-    <ClInclude Include="cheat\Dependencies\Direct3d\d3dx9anim.h" />
-    <ClInclude Include="cheat\Dependencies\Direct3d\d3dx9core.h" />
-    <ClInclude Include="cheat\Dependencies\Direct3d\d3dx9effect.h" />
-    <ClInclude Include="cheat\Dependencies\Direct3d\d3dx9math.h" />
-    <ClInclude Include="cheat\Dependencies\Direct3d\d3dx9mesh.h" />
-    <ClInclude Include="cheat\Dependencies\Direct3d\d3dx9shader.h" />
-    <ClInclude Include="cheat\Dependencies\Direct3d\d3dx9shape.h" />
-    <ClInclude Include="cheat\Dependencies\Direct3d\d3dx9tex.h" />
-    <ClInclude Include="cheat\Dependencies\Direct3d\d3dx9xof.h" />
     <ClInclude Include="cheat\Dependencies\Driver\Driver.h" />
-    <ClInclude Include="cheat\Dependencies\Driver\driverbytes.h" />
-    <ClInclude Include="cheat\Dependencies\Imgui\imconfig.h" />
-    <ClInclude Include="cheat\Dependencies\Imgui\imgui.h" />
-    <ClInclude Include="cheat\Dependencies\Imgui\imgui_impl_dx9.h" />
-    <ClInclude Include="cheat\Dependencies\Imgui\imgui_impl_win32.h" />
-    <ClInclude Include="cheat\Dependencies\Imgui\imgui_internal.h" />
-    <ClInclude Include="cheat\Dependencies\Imgui\imstb_rectpack.h" />
-    <ClInclude Include="cheat\Dependencies\Imgui\imstb_textedit.h" />
-    <ClInclude Include="cheat\Dependencies\Imgui\imstb_truetype.h" />
-    <ClInclude Include="cheat\Dependencies\Overlay\overlay.hpp" />
-    <ClInclude Include="cheat\Dependencies\Overlay\structs.h" />
-    <ClInclude Include="cheat\menu.hpp" />
+    <ClInclude Include="cheat\Dependencies\Math\Math.hpp" />
+    <ClInclude Include="cheat\Dependencies\Math\Vector\Vector.hpp" />
+    <ClInclude Include="cheat\gui.h" />
     <ClInclude Include="cheat\moneyhack.hpp" />
-    <ClInclude Include="cheat\money\config\configmanager.h" />
-    <ClInclude Include="cheat\money\pablo.hpp" />
+    <ClInclude Include="cheat\SDK\Entity\entitylist.h" />
+    <ClInclude Include="cheat\SDK\Entity\local.h" />
+    <ClInclude Include="cheat\SDK\SDK.hpp" />
+    <ClInclude Include="imgui\imconfig.h" />
+    <ClInclude Include="imgui\imgui.h" />
+    <ClInclude Include="imgui\imgui_impl_dx9.h" />
+    <ClInclude Include="imgui\imgui_impl_win32.h" />
+    <ClInclude Include="imgui\imgui_internal.h" />
+    <ClInclude Include="imgui\imstb_rectpack.h" />
+    <ClInclude Include="imgui\imstb_textedit.h" />
+    <ClInclude Include="imgui\imstb_truetype.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cheat\Dependencies\Driver\Driver.cpp" />
-    <ClCompile Include="cheat\Dependencies\Imgui\imgui.cpp" />
-    <ClCompile Include="cheat\Dependencies\Imgui\imgui_demo.cpp" />
-    <ClCompile Include="cheat\Dependencies\Imgui\imgui_draw.cpp" />
-    <ClCompile Include="cheat\Dependencies\Imgui\imgui_impl_dx9.cpp" />
-    <ClCompile Include="cheat\Dependencies\Imgui\imgui_impl_win32.cpp" />
-    <ClCompile Include="cheat\Dependencies\Imgui\imgui_tables.cpp" />
-    <ClCompile Include="cheat\Dependencies\Imgui\imgui_widgets.cpp" />
+    <ClCompile Include="cheat\gui.cpp" />
     <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="cheat\Dependencies\Direct3d\d3dx9math.inl" />
+    <ClCompile Include="imgui\imgui.cpp" />
+    <ClCompile Include="imgui\imgui_demo.cpp" />
+    <ClCompile Include="imgui\imgui_draw.cpp" />
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="imgui\imgui_tables.cpp" />
+    <ClCompile Include="imgui\imgui_widgets.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
